@@ -1,0 +1,5 @@
+meters = int(input("Введите количество метров: "))
+print(f"Сантиметры: {meters * 100}")
+print(f"Дециметры: {meters * 10}")
+print(f"Миллиметры: {meters * 1000}")
+print(f"Мили: {meters / 1609.34}")
